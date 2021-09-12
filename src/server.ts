@@ -6,7 +6,7 @@ import { router } from "./routes";
 
 // @types/express
 const app = express();
-// app.use(express.json);
+app.use(express.json());
 app.use(router);
 
 // manter rodando: yarn add ts-node-dev -D | yarn dev
