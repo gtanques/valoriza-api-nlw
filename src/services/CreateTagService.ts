@@ -1,7 +1,6 @@
 import { getCustomRepository } from "typeorm";
 import { TagRepository } from "../repositories/TagRepository"
 
-
 class CreateTagService {
     async execute(name: string) {
 
@@ -31,6 +30,5 @@ class CreateTagService {
         return tag;
     }
 }
-
 
 export { CreateTagService }
