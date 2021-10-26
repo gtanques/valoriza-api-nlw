@@ -20,7 +20,7 @@ Roda em [`localhost:3000`](http://localhost:3000)
 - [Criar usuário](http://localhost:3000/users)
 - [Autenticar](http://localhost:3000/auth)
 - [Listar elogios enviados](http://localhost:3000/users/compliments/send)
-- [Listar elogios enviados](http://localhost:3000/users/compliments/receive)
+- [Listar elogios recebidos](http://localhost:3000/users/compliments/receive)
 - [Criar elogio](http://localhost:3000/tags)
 - [Elogiar](http://localhost:3000/compliments)
 
